@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Digvijay's Portfolio",
+  title: "TNP Event Planner",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Digvijay shelar Portfolio",
+    title: "TNP Event Planner",
     type: "website",
     url: "http://https://devshelar.vercel.app/",
   },
@@ -19,47 +19,35 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Digvijay shelar",
-  logo_name: "Dev Shelar",
-  nickname: "DevShelar",
+  title: "TNP Event Planner",
+  logo_name: "TNP Event Planner",
+  nickname: "We Plan, You Celebrate",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://docs.google.com/document/d/1jRF6c6XN8B2IKrO37w3AyHr90rHLI4525nRQW011amk/edit?usp=sharing",
-  portfolio_repository: "https://github.com/Shelar1423",
-  githubProfile: "https://github.com/shelar1423",
+    "A passionate team that thrives on creating seamless and memorable events from start to finish. We are dedicated to developing sustainable and scalable solutions that make a lasting impact on both social and corporate gatherings.",
+  // resumeLink:
+  //   "https://docs.google.com/document/d/1jRF6c6XN8B2IKrO37w3AyHr90rHLI4525nRQW011amk/edit?usp=sharing",
+  // portfolio_repository: "https://github.com/Shelar1423",
+  // githubProfile: "https://github.com/shelar1423",
 };
 
 const socialMediaLinks = [
   {
-    name: "Github",
-    link: "https://github.com/shelar1423",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/digvijayshelar/",
+    link: "https://www.linkedin.com/company/tnp-event-planners/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/@devshelar",
+    link: "https://www.youtube.com/@TeamNayanPaul",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:digvijayshelar@gmail.com",
+    link: "mailto:teamnayanpaul@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/_DevShelar_",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
 
   {
@@ -73,71 +61,71 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "FrontEnd Development",
+      title: "Event Management Services 1",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using using Kotlin",
+        "Grand Festive - India's Leading Event Planner",
+        "Grand Festive - India's Leading Event Planner",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "ReactJS",
+          skillName: "Event",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Event",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#cccc00",
+          },
+        },
+        {
+          skillName: "Event",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#009900",
+          },
+        },
+        {
+          skillName: "Event",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#009999",
+          },
+        },
+        {
+          skillName: "Event",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#F24E1E",
           },
         },
       ],
     },
 
     {
-      title: "UI/UX Design",
+      title: "Event Management Services 2",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "Grand Festive - India's Leading Event Planner",
+        "Grand Festive - India's Leading Event Planner",
+        "Grand Festive - India's Leading Event Planner",
+        "Grand Festive - India's Leading Event Planner",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Event",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#FF2BC2",
+            color: "#009999",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Event",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#F24E1E",
           },
@@ -156,7 +144,7 @@ const competitiveSites = {
       style: {
         color: "#F79F1B",
       },
-      profileLink: "https://leetcode.com/u/devshelarwork/",
+      // profileLink: "https://leetcode.com/u/devshelarwork/",
     },
   ],
 };

@@ -12,7 +12,7 @@ class Certifications extends Component {
         <div className="certs-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="certs-header" style={{ color: theme.text }}>
-              What We Do Event Management Services
+              Event Management Services
             </h1>
           </Fade>
         </div>

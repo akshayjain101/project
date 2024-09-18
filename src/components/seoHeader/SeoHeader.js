@@ -32,7 +32,7 @@ function SeoHeader() {
     credentials.push({
       "@context": "https://schema.org",
       "@type": "EducationalOccupationalCredential",
-      url: certification.certificate_link,
+      url: certification.link,
       name: certification.title,
       description: certification.subtitle,
     });

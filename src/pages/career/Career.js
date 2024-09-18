@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import TopButton from "../../components/topButton/TopButton";
+import Header from "../../components/header/Header.js";
+import Footer from "../../components/footer/Footer.js";
+import TopButton from "../../components/topButton/TopButton.js";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import ExperienceImg from "./ExperienceImg";
+import ExperienceImg from "./ExperienceImg.js";
 
 // const experience = {
 // 	title: "Experience",
@@ -144,7 +144,7 @@ import ExperienceImg from "./ExperienceImg";
 // 	]
 // };
 
-class Experience extends Component {
+class Career extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -191,4 +191,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default Career;

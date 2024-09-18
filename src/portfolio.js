@@ -52,90 +52,85 @@ const socialMediaLinks = [
 
   {
     name: "Instagram",
-    link: "https://www.instagram.com/__shelar__/",
+    link: "https://www.instagram.com/team_nayanpaul/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/team_nayanpaul/",
+    fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#5fe440", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
     {
-      title: "Event Management Services 1",
+      title: "Weddings Event Management Services",
       fileName: "FullStackImg",
       skills: [
-        "Grand Festive - India's Leading Event Planner",
-        "Grand Festive - India's Leading Event Planner",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#cccc00",
-          },
-        },
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#009900",
-          },
-        },
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#009999",
-          },
-        },
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#F24E1E",
-          },
-        },
+        "Event flow management",
+        "Destination wedding planning & venue selection",
+        "Wedding planning and coordination",
+        "Entertainment activities for wedding guests",
+        "Wedding guest’s management",
+        "Pre wedding event decoration & party organization",
+        "Food and beverages services",
+        "Wedding invitation & other communication services",
+        "Transport & logistics management",
+        "Styling & personal shopper",
+        "Vendor Management",
+        "Wedding Gifting Solutions",
+        "Other wedding solutions",
       ],
     },
 
     {
-      title: "Event Management Services 2",
+      title: "Corporate Event Management Services",
       fileName: "DesignImg",
       skills: [
-        "Grand Festive - India's Leading Event Planner",
-        "Grand Festive - India's Leading Event Planner",
-        "Grand Festive - India's Leading Event Planner",
-        "Grand Festive - India's Leading Event Planner",
+        "Event Flow Management",
+        "Venue Selection and Booking",
+        "Event Planning and Coordination",
+        "Guest Management",
+        "Pre-Event Activities and Workshops",
+        "Food and Beverage Services",
+        "Transportation and Logistics Management",
+        "Audio-Visual and Technical Support",
+        "Entertainment and Engagement Activities",
+        "Branding and Promotional Services",
+        "Vendor Management",
+        "Post-Event Activities and Follow-Up",
+        "Event Security and Compliance",
+        "Corporate Gifting Solutions",
       ],
-      softwareSkills: [
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#009999",
-          },
-        },
-        {
-          skillName: "Event",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#F24E1E",
-          },
-        },
+    },
+
+    {
+      title: "Social Event Management Services",
+      fileName: "DesignImg",
+      skills: [
+        "Event Flow Management",
+        "Venue Selection and Booking",
+        "Event Planning and Coordination",
+        "Guest Management",
+        "Pre-Event Activities and Workshops",
+        "Food and Beverage Services",
+        "Transportation and Logistics Management",
+        "Audio-Visual and Technical Support",
+        "Entertainment and Engagement Activities",
+        "Branding and Promotional Services",
+        "Vendor Management",
+        "Post-Event Activities and Follow-Up",
+        "Event Security and Compliance",
+        "Other Social Event Solutions",
       ],
     },
   ],
 };
 
-// Education Page
+// Aboutus Page
 const competitiveSites = {
   competitiveSites: [
     {
@@ -183,63 +178,57 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "AI productivity hacks",
-      subtitle: "- Dr. Marily Nika",
-      logo_path: "hrci.png",
-      certificate_link:
-        "https://www.linkedin.com/learning/certificates/9b06e5eb56cbd4d72d8383b4d4f620d88719367638943e806a997fec17142670?u=60693444",
-      alt_name: "linkedin learning",
+      title: "Wedding Planning",
+      subtitle: "Complete Wedding Planning & Partial/Custom Wedding Planning",
+      logo_path: "Wedding_planning.jpg",
+      link: "/",
+      alt_name: "Wedding Planning",
       color_code: "#0000",
     },
     {
-      title: "Prompt Enginerring for Generative AI",
-      subtitle: "-  Ronnie Sheer",
-      logo_path: "linkedin.svg",
-      certificate_link:
-        "https://www.linkedin.com/learning/certificates/aa4ec5d76b8bfb15c6364768ff5ffd0f63cb1de55d58c6655a11dd07f302cff4?u=60693444",
-      alt_name: "deeplearning.ai",
+      title: "Wedding Planning",
+      subtitle: "Complete Wedding Planning & Partial/Custom Wedding Planning",
+      logo_path: "Wedding_planning.jpg",
+      link: "/",
+      alt_name: "Wedding Planning",
       color_code: "#0000",
     },
     {
-      title: "Distributed Systems",
-      subtitle: "- NPTEL",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1X37pGg7TdxGo2sRUV-GvATq9JKbAxufq/view?usp=sharing",
-      alt_name: "nptel",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Soda Code Hackathon",
-      subtitle: "- 2nd Runner-Up",
-      logo_path: "sodalogo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1Lzy9hfugu6KGKKsZjgoe8DoUT7U7uJSq/view?usp=sharing",
-      alt_name: "sodacode",
+      title: "Wedding Planning",
+      subtitle: "Complete Wedding Planning & Partial/Custom Wedding Planning",
+      logo_path: "Wedding_planning.jpg",
+      link: "/",
+      alt_name: "Wedding Planning",
       color_code: "#0000",
     },
     {
-      title: "Infomatique Exhib: Nation Level Technical Fest",
-      subtitle: "-1st Runner-Up",
-      logo_path: "jospeh.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qGEQHp-0xUgXmNBP-qsyeHyTdQ_DAcAP/view?usp=sharing",
-      alt_name: "stjoseph",
-      color_code: "##0B6A3E",
+      title: "Wedding Planning",
+      subtitle: "Complete Wedding Planning & Partial/Custom Wedding Planning",
+      logo_path: "Wedding_planning.jpg",
+      link: "/",
+      alt_name: "Wedding Planning",
+      color_code: "#0000",
     },
     {
-      title: "Charles Babage Day: Intra-college technical Event",
-      subtitle: "- 1st Runner Up",
-      logo_path: "bvclogo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qGEQHp-0xUgXmNBP-qsyeHyTdQ_DAcAP/view?usp=sharing",
-      alt_name: "IBM",
+      title: "Wedding Planning",
+      subtitle: "Complete Wedding Planning & Partial/Custom Wedding Planning",
+      logo_path: "Wedding_planning.jpg",
+      link: "/",
+      alt_name: "Wedding Planning",
+      color_code: "#0000",
+    },
+    {
+      title: "Wedding Planning",
+      subtitle: "Complete Wedding Planning & Partial/Custom Wedding Planning",
+      logo_path: "Wedding_planning.jpg",
+      link: "/",
+      alt_name: "Wedding Planning",
       color_code: "#0000",
     },
   ],
 };
 
-// Experience Page
+// Career Page
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
@@ -344,19 +333,19 @@ const experience = {
   ],
 };
 
-// Projects Page
-const projectsHeader = {
-  title: "Projects",
+// Services Page
+const Services = {
+  title: "Services",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Web Dev projects",
+    "The most successful event is the one that achieves your goals and exceeds your expectations. Sakura Events does just that!",
   avatar_image_path: "projects_image.svg",
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "image.png",
+    title: "Contact Us",
+    profile_image_path: "bgRemovedLogo.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
@@ -369,13 +358,13 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Dubaigate,Secundrabad",
-    locality: "Hyderabad",
+    subtitle: "Happy Colony, Kothrud, Pune, Maharashtra 411038",
+    locality: "Pune",
     country: "India",
-    region: "Telangana",
+    region: "maharashtra",
     postalCode: "50009",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/8C1pSwQJrDaMqZNF6",
+    location_map_link: "https://maps.app.goo.gl/tPSPKWxNy8tZqmSP6",
   },
   phoneSection: {
     title: "",
@@ -393,6 +382,6 @@ export {
   degrees,
   certifications,
   experience,
-  projectsHeader,
+  Services,
   contactPageData,
 };

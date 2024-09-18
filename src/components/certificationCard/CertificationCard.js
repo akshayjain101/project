@@ -11,7 +11,7 @@ class CertificationCard extends Component {
         <div className="cert-card">
           <div className="content">
             <a
-              href={certificate.certificate_link}
+              href={certificate.link}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -28,7 +28,7 @@ class CertificationCard extends Component {
               </div>
               <div className="content-details fadeIn-top">
                 <h3 className="content-title" style={{ color: theme.body }}>
-                  Certificate
+                  Image
                 </h3>
               </div>
             </a>

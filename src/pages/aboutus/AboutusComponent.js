@@ -11,7 +11,7 @@ import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
-class Education extends Component {
+class Aboutus extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -25,23 +25,14 @@ class Education extends Component {
 									src={require("../../assests/images/education.svg")}
 									alt=""
 								/> */}
-                {/* <EducationImg theme={theme} /> */}
-              </div>
-              <div className="heading-text-div">
-                {/* <h1 className="heading-text" style={{ color: theme.text }}>
-                  Education
-                </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
-                </h3> */}
-                {/* <CompetitiveSites logos={competitiveSites.competitiveSites} /> */}
+                <EducationImg theme={theme} />
               </div>
             </div>
           </Fade>
-          {/* <Educations theme={this.props.theme} />
+          {/* <Educations theme={this.props.theme} /> */}
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
-          ) : null} */}
+          ) : null}
         </div>
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
@@ -50,4 +41,4 @@ class Education extends Component {
   }
 }
 
-export default Education;
+export default Aboutus;

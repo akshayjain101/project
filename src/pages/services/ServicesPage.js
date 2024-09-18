@@ -1,17 +1,19 @@
 import React, { Component } from "react";
-import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import Header from "../../components/header/Header.js";
+import Footer from "../../components/footer/Footer.js";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard.js";
+import Certifications from "../../containers/certifications/Certifications.js";
+import { certifications } from "../../portfolio.js";
 
-import Button from "../../components/button/Button";
-import TopButton from "../../components/topButton/TopButton";
+import Button from "../../components/button/Button.js";
+import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
-import { greeting, projectsHeader } from "../../portfolio.js";
+import { greeting, Services } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
+import ProjectsImg from "./ProjectsImg.js";
 
-class Projects extends Component {
+class ServicesPage extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -22,7 +24,7 @@ class Projects extends Component {
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+											src={require(`../../assests/images/${Services["avatar_image_path"]}`)}
 											alt=""
 										/> */}
                 <ProjectsImg theme={theme} />
@@ -32,25 +34,29 @@ class Projects extends Component {
                   className="projects-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {projectsHeader.title}
+                  {Services.title}
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {projectsHeader["description"]}
+                  {Services["description"]}
                 </p>
               </div>
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
+        {/* <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
-        </div>
+        </div> */}
+
+        {certifications.certifications.length > 0 ? (
+          <Certifications theme={this.props.theme} />
+        ) : null}
         <Button
-          text={"More Projects"}
+          text={"More Services"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}
@@ -64,4 +70,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default ServicesPage;

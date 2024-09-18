@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
-import Education from "../pages/education/EducationComponent";
-import Experience from "../pages/experience/Experience";
-import Opensource from "../pages/opensource/Opensource";
+import Aboutus from "../pages/aboutus/AboutusComponent.js";
+import Career from "../pages/career/Career.js";
+import Blog from "../pages/blog/Blog.js";
 import Contact from "../pages/contact/ContactComponent";
-import Projects from "../pages/projects/Projects";
+import ServicesPage from "../pages/services/ServicesPage.js";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -31,23 +31,17 @@ export default class Main extends Component {
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/experience"
+            path="/career"
             exact
-            render={(props) => (
-              <Experience {...props} theme={this.props.theme} />
-            )}
+            render={(props) => <Career {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/education"
-            render={(props) => (
-              <Education {...props} theme={this.props.theme} />
-            )}
+            path="/aboutus"
+            render={(props) => <Aboutus {...props} theme={this.props.theme} />}
           />
           <Route
-            path="/opensource"
-            render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
-            )}
+            path="/blog"
+            render={(props) => <Blog {...props} theme={this.props.theme} />}
           />
           <Route
             path="/contact"
@@ -62,8 +56,10 @@ export default class Main extends Component {
           )}
 
           <Route
-            path="/projects"
-            render={(props) => <Projects {...props} theme={this.props.theme} />}
+            path="/services"
+            render={(props) => (
+              <ServicesPage {...props} theme={this.props.theme} />
+            )}
           />
           <Route
             path="*"
